@@ -1,8 +1,10 @@
 import React from 'react';
-import { SelecSong } from '../actions';
+import SongList from './SongList';
 
 const App = () => {
-    return <div>App update</div>
+    return (
+        <SongList />
+    )
 }
 
 export default App;
